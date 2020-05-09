@@ -1,9 +1,13 @@
 import React from 'react';
+import HobbyList from './components/HobbyList'
 
 function App() {
+
+  const hobbies = ["Surfing", "Rock climbing", "Mountain biking", "Breakdancing"]; 
+
   return (
     <div>
-      React App
+      <HobbyList hobbyList={hobbies}/>
     </div>
   );
 }
