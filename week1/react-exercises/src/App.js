@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import HobbyList from './components/HobbyList'
 import Guarantee from './components/Guarantee'
+import Counter from './components/Counter'
 
 
 const infos = [
@@ -43,11 +44,13 @@ function App() {
         <div>
             {/*<HobbyList hobbyList={hobbies}/>*/}
 
-            <div className="customerService">
+            {/*<div className="customerService">
                 <Guarantee img={infos[0].img} title={infos[0].title} description={infos[0].description}/>
                 <Guarantee img={infos[1].img} title={infos[1].title} description={infos[1].description}/>
                 <Guarantee img={infos[2].img} title={infos[2].title} description={infos[2].description}/>
-            </div>
+            </div>*/}
+
+            <Counter/>
         </div>
 
     );

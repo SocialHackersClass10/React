@@ -32,3 +32,24 @@ img {
 .customerService div h2 {
     margin: 8px 8px;
 }
+
+.counter {
+    text-align: center;
+    border: 2px solid #80807e;
+    padding: 8px;
+}
+
+.counter h2 {
+    margin: 16px 0;
+}
+
+.counter button {
+    height:30px;
+    width: 60px;
+    font-size: 16px;
+}
+
+.counter p {
+    margin: 8px 0;
+    font-size: 16px;
+}
